@@ -38,7 +38,7 @@ if not api_key:
 
 ## LLM model
 llm = ChatGroq(
-    groq_api_key="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",
+    groq_api_key="Enter your groq api key",
     model_name="Llama3-8b-8192",
     streaming=True
 )
@@ -90,3 +90,4 @@ if user_query:
         response=agent.run(user_query,callbacks=[streamlit_callback])
         st.session_state.messages.append({"role":"assistant","content":response})
         st.write(response)
+
