@@ -2,7 +2,6 @@
 
 "Chat with your Database using Natural Language"
 
-<p align="center"> <img src="screenshot_app.png" alt="App Screenshot" width="800"/> </p>
 📖 Overview
 
 The LangChain SQL Q&A Chatbot lets you query your SQL database in plain English using the power of Groq LLM + LangChain.
